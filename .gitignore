@@ -1,0 +1,46 @@
+# Binaries
+api/app
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build cache & modules
+*.test
+*.out
+*.log
+coverage.*
+dist/
+bin/
+vendor/
+go.sum
+
+# Dependency / cache dirs
+**/.idea/
+**/.vscode/
+**/.DS_Store
+**/.envrc
+**/.history
+**/__pycache__/
+
+# Docker stuff
+pgdata/
+redisdata/
+esdata/
+volumes/
+*.pid
+
+# Env & secrets
+.env
+.env.local
+.env.*.local
+
+# Node / Frontend (in case later add UI)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+*.log
+logs/
